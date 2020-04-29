@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Introduction */
+#introduction_wrapper
+{
+    background-image: url("background4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #606060FF;
+    height: 1000px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction_title {
+    color: #ffffff;
+    
+}
+
+/* About */     
+#about_wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(114, 120, 120);
+    height: auto;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.about_title {
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 0;
+    text-align: center;
+    color: lightseagreen;
+    font-size: 40px;
+}
+
+.about_title p {
+    color: rgb(114, 120, 120);
+    text-transform: none;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+
+.about_container {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.about_details {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.about_details h3 {
+    position: absolute;
+}
+
+
+.about_details .about_details_wrapper, .info_container {
+    margin-top: 70px;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+}
+
+.about_container ul {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 977px) {
+    .about_details {
+        width: 70%;
+        text-align: justify;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about_details{
+        width: 80%;
+    }
+
+    .info_container {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #introduction_wrapper {
+        background-attachment: scroll;
+        height: 810px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #introduction_wrapper {
+        background-attachment: scroll;
+        height: 620px;
+    }
+}
