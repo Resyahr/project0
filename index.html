@@ -3,7 +3,7 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="index.css" type="text/css">
-        <link rel="icon" type="image/png" href="icon.png">
+        <link rel="icon" type="image/png" sizes="180x180" href="icon2.png">
         <title>My web page</title>
     </head>
     <body>
@@ -27,25 +27,39 @@
                     <hr>
                 </div>
             </div>
+
+
+
+            <!-- About Section Title -->
             <section id="about_wrapper">
                 <div class="about_title">
                     <h2>About</h2>
                     <p style="border-bottom: 1px solid lightseagreen;"> I'm a musician, student but most important <span class="bold">human.</p>
                 </div>
-                
-                <section class="about_container">
+
+
+
+                <!-- About Container -->
+                <div class="about_container">
                     <div class="about_details">
-                        <h3 style="text-align: center; color: lightseagreen; font-size: 25px;" >About Me</h3>
+                        <h3 style="text-align: center; color: lightseagreen; font-size: 25px;">About Me</h3>
                     <div class="about_details_wrapper">
                         <p style="font-size: 20px;">I'm currently trying to learn Web development from scratch to 
-                            become a proffesional on this area, right now I'm learning this topic through Edx.
+                            become a professional on this area, right now I'm learning this topic through HarvardX.
                         </p>
                     </div>
                 </div>
+
+
                 
+                <!-- Centered Profile Image -->
                 <div class="about_details">
-                        <img class="picture" src="Profile.jpg" width="200px" height="200px" style="border-radius: 50%;">
+                        <img class="picture" src="Profile.jpg" width="260px" height="260px" style="border-radius: 50%;">
                 </div>
+
+
+
+                <!-- Info Container -->
                 <div class="about_details">
                         <h3 style="text-align: center; color: lightseagreen; font-size: 25px;" >Info</h3>
                         <div class="info_container">
@@ -53,7 +67,7 @@
                                 <li><strong>Name: </strong>Rhayser Montoya</li>
                                <li><strong>Age: </strong>25</li>
                                <li><strong>From: </strong>Caracas-Venezuela</li>
-                               <li><span class="bold">Languages: </span>
+                               <li><strong>Languages: </strong>
                                    <ol>
                                         <li>Spanish (native)</li>
                                         <li>English</li>
@@ -65,15 +79,83 @@
                 </section>
             </section>
 
+            <section id="learned_wrapper">
+
+                <!-- Learned Title -->
+                <div class="learned_title">
+                    <h2>What I've learned</h2>
+                    <p style="text-align: center;">I have learned a lot doing this project 0</p>
+                </div>
+
+                <!-- 1- Table Container -->
+                <div class="learned_container">
+                    <div class="learned_details">
+                        <div class="table_container">
+                            <h3 style="text-align: center;">Tables: </h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Item 1</th>
+                                        <th>Item 2</th>
+                                        <th>Item 3</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Data here1</td>
+                                        <td>Data here2</td>
+                                        <td>Data here3</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <td>Here goes something more 1</td>
+                                        <td>Here goes something more 2</td>
+                                        <td>Here goes something more 3</td>
+                                    </tr>
+                                </tfoot>    
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- 2- List Container -->           
+                    <div class="learned_details">
+                        <div class="list_container">
+                            <h3 style="text-align: center;"> Lists: </h3>
+                            <h5> I can also make unordered lists (As I did above): <a href="#about_wrapper"><strong>here</strong></a></h5>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                            <h5> There's another type of lists around, wich are called ordered lists: </h5>
+                            <ol>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <!-- 3- Pictures Container -->
+                    <div class="learned_details centered_box">
+                        <div class="pictures_container">
+                            <h3 style="text-align: center;">Add images:</h3>
+                            <img src="picture1.jpg" alt="Photo about me" width="300px" height="200px" style="border-radius: 5px;">
+                            <img src="picture2.jpg" alt="Photo about me" width="300px" height="200px" style="border-radius: 5px;">
+                            <img src="picture3.jpg" alt="Photo with my girlfriend" width="200px" height="200px" style="border-radius: 5px;"
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer>
             <div class="social">
                 <a href="https://www.facebook.com/rhayser"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://www.instagram.com/rhayserm/"><i class="fab fa-instagram"></i></a>
                 <a href=""><i class="fab fa-youtube"></i></a>
             </div>
-            </section>
-        </div>
-
-        <footer>
             <small>&copy; Copyright 2020, Rhayser Montoya</small>
         </footer>
         <script src="https://kit.fontawesome.com/7c47824389.js" crossorigin="anonymous"></script>
