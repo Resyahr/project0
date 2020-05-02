@@ -38,6 +38,18 @@
 
 @media (max-width:500px) {
     .container {
+        flex-direction: column;
         height: 730px;
     }
+
+    .container img {
+        max-width: 400px;
+        margin-top: -60px;
+    }
+
+
+    .container a {
+        align-self: center;
+    }
+
 }
