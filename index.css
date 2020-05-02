@@ -162,6 +162,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+
 }
 
 .learned_details {
@@ -169,7 +170,7 @@ h2 {
     padding: 20px;
     border: 1px solid white;
     background-color: #333;
-    
+    border-radius: 15px;
 }
 
 .centered_box {
