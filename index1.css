@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.home a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.home a:hover {
+    background-color: lightseagreen;
+    border-radius: 4px;
+}
+
+.container a::after {
+    content: "Next Picture \21d2";
+    padding-left: 40px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+@media (max-width:500px) {
+    .container {
+        height: 730px;
+    }
+}

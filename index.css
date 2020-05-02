@@ -11,7 +11,7 @@ html, body{
 #introduction_wrapper
 {
     background-image: url("background4.jpg");
-    background-size: cover;
+    
     background-position: center center;
     background-attachment: fixed;
     background-color: #606060FF;
@@ -117,7 +117,10 @@ html, body{
 
 #learned_wrapper {
     height: auto;
-    background-image: url("background5.jpg");
+    margin-bottom: 60px;
+    background-image: url("gif.gif");
+    background-position: center;
+    background-color: #606060FF;
     background-attachment: fixed;
     color: #434242;
     letter-spacing: 0.1em;
@@ -143,10 +146,12 @@ html, body{
     padding-bottom: 25px;
     font-size: 20px;
     border-bottom: 1px solid lightseagreen;
+    color: white;
 }
 
 .learned_container {
     margin: auto;
+    padding-bottom: 50px;
     width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -161,10 +166,6 @@ html, body{
     
 }
 
-.learned_details .list_container {
-    border: #ffffff;
-}
-
 .centered_box {
     display: flex;
     grid-column: span 2;
@@ -175,25 +176,25 @@ html, body{
     border: 1px solid white;
 }
 
-
-
-
-
-
 .learned_details table, th, td {
+    color: black;
     text-align: center;
+    align-content: center;
     border: 2px solid #ffffff;
     border-collapse: collapse;
     padding: 15px;
     text-align: left;
 }
 
-.learned_details th {
+.learned_details th, td {
     text-align: center;
+    background-color: #8c8c8c;
 }
 
-.learned_details tr:nth-child(even) {
-    background-color: #dddddd;
+.list_container strong:hover {
+    background-color: lightseagreen;
+    border-radius: 2px;
+    color: white;
 }
 
 @media (max-width: 500px) {
@@ -204,7 +205,7 @@ html, body{
         flex-direction: column;
         justify-content: space-around;
         width: 90%;
-        height: 1680px;
+        height: 1880px;
     }
 
     .learned_details table, tr {
@@ -221,6 +222,7 @@ html, body{
         display: flex;
         flex-direction: column;
         margin: auto;
+        margin-bottom: 15px;
     }
 
 
