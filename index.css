@@ -196,7 +196,7 @@ html, body{
     background-color: #dddddd;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
 
     .learned_container {
         display: flex;
